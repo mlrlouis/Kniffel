@@ -1,16 +1,16 @@
-# 🎲 Kniffel (Yahtzee) - Java Swing Application
+# Kniffel (Yahtzee) - Java Swing Application
 
 ![Java](https://img.shields.io/badge/Java-17%2B-orange?style=for-the-badge&logo=openjdk)
 ![GUI](https://img.shields.io/badge/GUI-Swing-blue?style=for-the-badge)
 ![Architecture](https://img.shields.io/badge/Architecture-OOP-green?style=for-the-badge)
 
-## 📖 About The Project
+## About The Project
 
 This project is a fully functional implementation of the popular dice game **Kniffel (Yahtzee)**, built with Java.
 
 It demonstrates strong **Object-Oriented Programming (OOP)** principles by separating game logic, rule validation, and user interface. The project features a dual-interface approach: the core logic powers both a classic **Console Application** and a graphical **Desktop GUI** built with Java Swing.
 
-### ✨ Key Features
+### Key Features
 * **Graphical User Interface (GUI):** Interactive window with buttons and visual dice representation using `javax.swing`.
 * **Complete Ruleset:** Implements all standard Kniffel rules (Full House, Straights, Kniffel, Bonus calculations).
 * **Rule Engine:** A dedicated static utility class (`KniffelRules`) handles complex score validation independently of the UI.
@@ -18,7 +18,7 @@ It demonstrates strong **Object-Oriented Programming (OOP)** principles by separ
 
 ---
 
-## 🏗️ Architecture
+## Architecture
 
 The code is organized into a modular package structure in `src/kniffel/`.
 
@@ -43,7 +43,7 @@ src/kniffel/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 Prerequisites
 
@@ -83,18 +83,12 @@ Installation & Execution
 
 ---
 
-## 🕹️ Controls (GUI)
+## Controls (GUI)
 
   1. Roll Dice: Click to roll. You have 3 rolls per round.
 
   2. Hold Dice: Click "Würfel behalten" and enter the numbers (1-5) of the dice you want to keep (e.g., "1 4 5").
 
   3. Select Category: Choose a scoring category from the dropdown menu and click "Kategorie auswählen" to lock in your score.
-
----
-
-## 👨‍💻 Author
-
-Louis Müller
 
 <p align="right">(<a href="#top">back to top</a>)</p>
